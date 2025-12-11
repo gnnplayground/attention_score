@@ -13,13 +13,7 @@ import torch.nn as nn
 import copy
 import seaborn as sns
 
-# Load XDATCAR and get the last structure
-xdatcar = Xdatcar("XDATCAR")
-structure = xdatcar.structures[-1]
 
-# Build the graph using CrystalNN
-neighbor_finder = CrystalNN()  # Can also use VoronoiNN()
-graph = neighbor_finder.get_bonded_structure(structure)
 
 # Get number of atoms
 num_atoms = len(structure)
