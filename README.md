@@ -34,7 +34,6 @@ Execute the main script to load trajectories, train the model, evaluate NRR perf
 
 - Identifies optimal N2 sites via attention scores.
 ## Results Visualization
-![Ga-S Influence Plot](Vaccum-Ga-sheet.png)
 ### Example: Optimal Site Identification
 After running, inspect the influence plot:
 - Top Ga/S atoms (e.g., Ga1, S5) show >3% contribution to N2 activation.
