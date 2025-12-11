@@ -23,6 +23,8 @@ The work draws from density functional theory (DFT) for material properties and 
 
 ## Usage
 ### 1. Run the Full Pipeline
+## Workflow of the Model
+![workflow](attention.png)
 Execute the main script to load trajectories, train the model, evaluate NRR performance, and visualize atomic influences:
 - **Outputs**:
   - Printed training/validation losses and model summary.
@@ -31,7 +33,8 @@ Execute the main script to load trajectories, train the model, evaluate NRR perf
 - **Expected Runtime**: 10-15 minutes on CPU for 5000 timesteps; faster on GPU.
 
 - Identifies optimal N2 sites via attention scores.
-
+## Results Visualization
+![Ga-S Influence Plot](Vaccum-Ga-sheet.png)
 ### Example: Optimal Site Identification
 After running, inspect the influence plot:
 - Top Ga/S atoms (e.g., Ga1, S5) show >3% contribution to N2 activation.
