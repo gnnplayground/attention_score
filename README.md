@@ -23,8 +23,6 @@ The work draws from density functional theory (DFT) for material properties and 
 
 ## Usage
 ### 1. Run the Full Pipeline
-## Workflow of the Model
-![workflow](attention.png)
 Execute the main script to load trajectories, train the model, evaluate NRR performance, and visualize atomic influences:
 - **Outputs**:
   - Printed training/validation losses and model summary.
